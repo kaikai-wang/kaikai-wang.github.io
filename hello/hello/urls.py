@@ -18,6 +18,6 @@ from django.urls import path
 from learn import view as learn_view
 
 urlpatterns = [
-    path('/',learn_view.say_hello())
+    path('hello/',learn_view.say_hello())
     path('admin/', admin.site.urls),
 ]
